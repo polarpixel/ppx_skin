@@ -1,14 +1,11 @@
 <?php
 /**
- * REDAXO PPX Skin-Theme
+ * REDAXO PPX Skin - (be_style Plugin)
  * 
- * @author webmaster[at]pixelworks[dot]info Joachim Dörr
- * @author <a href="http://www.pixelworks.info">www.pixelworks.info</a>
- * 
- *
- * @package redaxo4
- * @version 1.3
+ * @author peter[at]polarpixel[dot]de Peter Bickel
+ * @author <a href="http://www.polarpixel.de">www.polarpixel.de</a>
  */
+
 
 $error = '';
 

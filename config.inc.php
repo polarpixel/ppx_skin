@@ -1,13 +1,9 @@
 <?php
 /**
- * REDAXO PXW Skin-Theme - (by_style Plugin)
+ * REDAXO PPX Skin - (be_style Plugin)
  * 
- * @author webmaster[at]pixelworks[dot]info Joachim Dörr
- * @author <a href="http://www.pixelworks.info">www.pixelworks.info</a>
- *
- *
- * @package redaxo4
- * @version 1.3
+ * @author peter[at]polarpixel[dot]de Peter Bickel
+ * @author <a href="http://www.polarpixel.de">www.polarpixel.de</a>
  */
 
 $mypage = 'ppx_skin';
@@ -21,5 +17,4 @@ if(!$REX['GG'])
 	require_once(dirname(__FILE__). '/extensions/extensions_ppx_replace.inc.php');
 	rex_register_extension('OUTPUT_FILTER', 'ppx_replace');
 }
-
 ?>
