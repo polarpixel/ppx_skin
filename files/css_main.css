@@ -1,6 +1,6 @@
 /**
- * Inspirit by agk_skin von Thomas Blum
- * @autor Joachim Dörr
+ * @autor Peter Bickel
+ * Based on pxw-skin by Joachim Dörr
  */
 
 body {
@@ -12,6 +12,7 @@ body {
 html {
 	margin:0;
 	padding:0 10px;
+	overflow-y: scroll;
 }
 body {
 	margin-top: 0;
