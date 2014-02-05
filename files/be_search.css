@@ -1,0 +1,93 @@
+div#rex-a256-searchbar {
+	background:#F0F0F0 url(bg_be_search3.jpg) repeat-x left top;
+	/*height:30px;*/
+	margin-bottom:10px;
+	padding:0;
+	border:none;
+}
+div#rex-a256-searchbar .rex-toolbar-content {
+	padding:4px 12px 5px 12px;
+}
+*+html div#rex-a256-searchbar .rex-toolbar-content {
+	padding:0 12px 5px 12px;
+	margin-top:-1px;
+}
+div#rex-a256-searchbar .rex-form {
+	background:transparent;
+	padding:0;
+	border:none;
+}
+div#rex-a256-searchbar .rex-fl-lft {
+	padding-top:1px;
+}
+*+html div#rex-a256-searchbar .rex-fl-lft {
+	padding-top:0;
+}
+*+html *+html div#rex-a256-searchbar .rex-fl-lft #rex-a256-category-id {
+	padding-top:0;
+	font-size:0.9em;
+}
+*+html div#rex-a256-searchbar .rex-fl-rght {
+	padding-top: 5px;
+}
+div#rex-a256-searchbar form label {
+	font-weight: normal;
+	/*display:none;*/
+	font-size:0.9em;
+	padding-right:2px;
+	color: #AFAFAF;
+}
+*+html div#rex-a256-searchbar form label {
+	line-height: 0.8em;
+}
+div#rex-a256-searchbar form input.rex-sbmt {
+	line-height: 1em;
+}
+*+html div#rex-a256-searchbar .rex-toolbar-content .rex-form-submit {
+	margin-top:5px;
+	padding:0;
+}
+*+html div#rex-a256-searchbar form input.rex-sbmt {
+	margin-top:4px;
+}
+div#rex-a256-searchbar form input#rex-a256-article-name {
+	width: 120px;
+	margin-right: 5px;
+}
+div#rex-a256-searchbar form input#rex-a256-article-id {
+	width: 30px;
+	margin-right: 5px;
+}
+div#rex-a256-searchbar form select#rex-a256-category-id {
+	width: 180px;
+}
+div.rex-form fieldset.rex-form-col-2 div.rex-form-row p#a256-media-search label {
+	width: 140px;
+}
+div.rex-form fieldset.rex-form-col-2 div.rex-form-row p input#a256-media-name {
+	width: 120px;
+}
+div#rex-a256-searchbar ul.a256-search-result,
+div#rex-a256-searchbar ul.a256-search-result li,
+div#rex-a256-searchbar ul.a256-search-result li ul.a256-search-hit li,
+div#rex-a256-searchbar ul.a256-search-result li ul.a256-search-hit {
+	margin:0;
+	padding:0;
+}
+div#rex-a256-searchbar ul.a256-search-result {
+	padding: 40px 0 0 0;
+	list-style: none;
+}
+div#rex-a256-searchbar ul.a256-search-result li {
+	display: block;
+	padding-bottom: 3px;
+	list-style: none;
+}
+div#rex-a256-searchbar ul.a256-search-result li ul.a256-search-hit li {
+	display: inline;
+	padding-bottom: 0px;
+	list-style: none;
+}
+div#rex-a256-searchbar span.a256-search-hit {
+	font-weight: bold;
+}

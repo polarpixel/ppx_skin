@@ -1,0 +1,1473 @@
+/**
+ * Inspirit by agk_skin von Thomas Blum
+ * @autor Joachim Dörr
+ */
+
+body {
+	background-image: url(bg_body.gif);
+	background-repeat: repeat-x;
+	background-color: #fff;
+}
+
+html {
+	margin:0;
+	padding:0 10px;
+}
+body {
+	margin-top: 0;
+	max-width: 1264px;
+	min-width: 716px;
+	margin:0 auto;
+	position: inherit;
+}
+* html body #rex-website {
+	width: 1160px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+/*	width: expression((document.documentElement && document.documentElement.clientHeight) ?
+	(document.documentElement.clientWidth < 716) ? "718px" : (( document.documentElement.clientWidth > 1264 ) ? "1266px" : "auto") :
+	(document.body.clientWidth < 716) ? "718px" : (( document.body.clientWidth > 1264 ) ? "1266px" : "auto"));
+*/}
+
+div.rex-widget img {
+	vertical-align: top;
+}
+/*	Textfarben *****************************************************************
+*******************************************************************************/
+div#rex-navi-logout {
+	color: #32353A;
+}
+a.rex-button {
+  color: #000;
+}
+a,
+div.rex-content-header ul li a {
+	color: #900013;
+}
+div#rex-navi-logout p,
+#rex-website div#rex-navi-footer p#rex-scripttime {
+	color:#32353A;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	-moz-opacity:0.6;
+}
+div#rex-navi-logout {
+	
+}
+div#rex-navi-logout a, 
+div#rex-navi-footer ul li a {
+	color: #32353A;
+	font-weight:normal;
+	filter:alpha(opacity=50);
+	opacity:0.5;
+	-moz-opacity:0.5;
+}
+#rex-website div#rex-navi-logout span {
+	color: #fff;
+	filter:alpha(opacity=90);
+	opacity:0.9;
+	-moz-opacity:0.9;
+}
+#rex-website div#rex-navi-logout a:hover, 
+#rex-website div#rex-navi-footer ul li a:hover {
+	color: #000;
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	-moz-opacity:0.8;
+}
+div#rex-title h1, 
+div#rex-navi-page ul li a.rex-active, 
+div#rex-navi-paginate ul li.rex-navi-paginate-page a.rex-active, 
+div#rex-clang ul li a.rex-active, 
+div.rex-content-header ul li a.rex-active {
+	color: #000;
+}
+.rex-tx3 {
+	color: #188D12;
+}
+.rex-tx2 {
+	color: #AF112F;
+}
+/*	Schriftarten ***************************************************************
+*******************************************************************************/
+body, 
+input, 
+textarea, 
+select, 
+div#rex-navi-paginate ul li.rex-navi-paginate-page a span {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, Verdana, sans-serif;
+}
+/*	Schriftgroessen ************************************************************
+*******************************************************************************/
+div#rex-website {
+	font-size: .70em;
+}
+div#rex-title h1 {
+	font-size: 1.6em;
+	text-transform: uppercase;
+	font-weight: 100;
+	text-shadow: #fff 1px 1px 1px;
+}
+.rex-hl2, 
+div#rex-navi-main dt {
+	font-size: 0.833em;
+}
+div#rex-navi-paginate ul li.rex-navi-paginate-page a span {
+	font-size: 1em;
+}
+div#rex-footer {
+	font-size: 0.9em;
+}
+
+/*	Zeilenhoehen ***************************************************************
+*******************************************************************************/
+div#rex-title h1 {
+	line-height: 1.1;
+}
+/*	Background Color ***********************************************************
+*******************************************************************************/
+body#rex-page-import-export div.rex-area, 
+div#rex-navi-path {
+	background-color: transparent;
+}
+div.rex-content-editmode div.rex-form-content-editmode-edit-slice {
+	background-color: #EDEDED;
+}
+div.rex-toolbar, 
+div.rex-content-header, 
+.rex-hl2, 
+div.rex-form, 
+div.rex-area-footer, 
+div.rex-addon-footer, 
+table.rex-table th, 
+table.rex-table tr td.rex-colored, 
+table.rex-table tr.rex-table-row-activ td {
+	background-color: #E9E9E9;
+}
+table.rex-table th {
+	color:#555;
+	font-size:0.9em;
+	font-weight:normal;
+}
+/* #rex-page-structure #rex-output table.rex-table-mrgn th {
+	color:#E9E9E9;
+}*/
+div#rex-footer,
+div#rex-header p.rex-header-top,
+div#rex-title,
+div#rex-linkmap, 
+div#rex-form-system-setup,
+div#rex-mediapool-detail-wrapper, 
+div.rex-area, 
+div.rex-addon-output, 
+div.rex-content-cols, 
+div.rex-form div.rex-form-wrapper,
+div.rex-widget p.rex-widget-field input,
+div.rex-widget p.rex-widget-field select, 
+table.rex-table {
+	background-color: #F0F0F0;
+}
+/*  Gruen - Add-, EditSlice *********/
+/*  Slice Inhalt */
+div.rex-content-editmode div.rex-form.rex-form-content-editmode-add-slice, 
+div.rex-content-editmode div.rex-form.rex-form-content-editmode-edit-slice, 
+table.rex-table tr.rex-metainfo-cat td {
+  background-color: #d6e1e4;
+}
+/*  Modulname, SliceNavi */
+div.rex-content-editmode div.rex-form.rex-form-content-editmode-add-slice div.rex-content-editmode-module-name, 
+div.rex-content-editmode div.rex-content-editmode-module-name.rex-form-content-editmode-edit-slice, 
+div.rex-content-editmode div.rex-form-content-editmode-edit-slice div.rex-navi-slice, 
+table.rex-table tr.rex-metainfo-cat-b td {
+  background-color: #CCD7DD;
+}
+div.rex-content-editmode div.rex-content-editmode-module-name {
+	border-bottom:1px solid #C2C2BF	
+}
+/*	Background Image ***********************************************************
+*******************************************************************************/
+div.rex-content-header, 
+div.rex-navi-paginate ul li.rex-navi-paginate-prev, 
+div.rex-navi-paginate ul li.rex-navi-paginate-message, 
+div.rex-navi-paginate ul li.rex-navi-paginate-page a, 
+div.rex-navi-paginate ul li.rex-navi-paginate-page a span {
+	background-image: none;
+}
+div#rex-website {
+}
+div#rex-footer {
+	background-color: #efefef;
+	background-repeat: repeat-x;
+}
+div#rex-navi-logout {
+	background-image: url(logo.gif);
+    background-position: 8px 18px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+*html div#rex-navi-logout,
+*+html div#rex-navi-logout {
+	background-image: url(bg_body.gif);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+}
+*+html div#rex-navi-logout .rex-logout {
+	background-image: url(logo.gif);
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+#rex-popupmediapool div#rex-navi-logout {
+    background-position: 5px 34px;
+}
+.rex-popup div#rex-navi-logout {
+    background-position: 8px 34px;
+}
+p.rex-button a, 
+input.submit,
+div.rex-form input.rex-form-submit {
+	background-image: url(button.gif);
+	background-repeat: repeat-x;
+	border:1px solid #999;
+}
+div.rex-navi-slice ul li a.rex-slice-move-up {
+	background-image: url(icon_up.gif);
+}
+div.rex-navi-slice ul li a.rex-slice-move-down {
+	background-image: url(icon_down.gif);
+}
+div#rex-navi-paginate ul li.rex-navi-paginate-prev a {
+	background-image: url(icon_left.gif);
+}
+div#rex-navi-paginate ul li.rex-navi-paginate-next a {
+	background-image: url(icon_right.gif);
+}
+div.rex-widget p.rex-widget-icons a.rex-icon-file-add {
+	background-image: url(file_add.gif);
+}
+div.rex-widget p.rex-widget-icons a.rex-icon-file-bottom {
+	background-image: url(file_bottom.gif);
+}
+div.rex-widget p.rex-widget-icons a.rex-icon-file-delete {
+	background-image: url(file_del.gif);
+}
+div.rex-widget p.rex-widget-icons a.rex-icon-file-down {
+	background-image: url(file_down.gif);
+}
+div.rex-widget p.rex-widget-icons a.rex-icon-file-open {
+	background-image: url(file_open.gif);
+}
+div.rex-widget p.rex-widget-icons a.rex-icon-file-top {
+	background-image: url(file_top.gif);
+}
+div.rex-widget p.rex-widget-icons a.rex-icon-file-up {
+	background-image: url(file_up.gif);
+}
+div.rex-widget p.rex-widget-icons a.rex-icon-file-view {
+	background-image: url(file_view.gif);
+}
+div#rex-navi-paginate ul li, 
+div.rex-navi-paginate ul li, 
+div.rex-navi-slice ul li a.rex-tx3 {
+	background-image: url(pipe_grey.gif);
+	background-position: 0px 2px;
+}
+div.rex-navi-slice ul li a.rex-tx3 {
+	background-position: 100% 2px;
+}
+/*	Popup */ 
+div#rex-navi-main ul li a.rex-popup {
+}
+a.rex-back {
+  padding-left: 8px;
+	background-image: url(back.gif);
+	background-position: 0 4px;
+}
+/*  Kategorietabelle Metainfo Button */
+div#rex-form-structure-category p.rex-button-add {
+  margin-top: 2px;
+}
+div#rex-form-structure-category p.rex-button-add a {
+  width: 18px;
+  height: 18px;
+}
+.rex-i-addon {
+	background-image: url(addon.png);
+	display:block;
+	height:22px;
+	width:22px;
+	margin-top:-3px;
+	margin-left:3px;
+	position:relative;
+}
+.rex-i-action {
+	background-image: url(action.png);
+	background-position: -1px -1px;
+}
+.rex-i-action-add {
+	background-image: url(action_plus.png);
+	background-position: 1px 5px;
+}
+.rex-i-addon {
+	background-image: url(addon.png);
+}
+.rex-i-article {
+	background-image: url(document.png);
+	background-position: 0px -1px;
+}
+.rex-i-article-add {
+	background-image: url(document_plus.png);
+	background-position: 3px 4px;
+}
+.rex-i-article-startpage {
+	background-image: url(startpage.png);
+	background-position: 0px -1px;
+}
+.rex-i-clang {
+	background-image: url(clang.png);
+}
+.rex-i-clang-add {
+	background-image: url(clang_plus.png);
+	background-position: 0 4px;
+}
+.rex-i-cronjob {
+	padding: 2px;
+}
+
+#rex-page-cronjob .rex-i-cronjob,
+#rex-page-cronjob .rex-i-cronjob-add {
+	background: none !important;
+}
+#rex-page-cronjob tbody tr {
+	background-image: url(cronjob.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 10px 4px !important;
+}
+#rex-page-cronjob thead tr th.rex-icon {
+	background-image: url(cronjob_plus.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 10px 4px !important;
+}
+
+.rex-i-generic {
+	background-image: url(generic.gif);
+}
+.rex-i-generic-add {
+	background-image: url(generic_add.gif);
+}
+.rex-i-generic-delete {
+	background-image: url(generic_del.gif);
+}
+.rex-i-generic-close {
+	background-image: url(generic_close.gif);
+}
+.rex-i-generic-open {
+	background-image: url(generic_open.gif);
+}
+.rex-i-list {
+	background-image: url(list.gif);
+}
+.rex-i-media-add {
+	background-image: url(media_add.gif);
+}
+.rex-i-media {
+	background-image: url(media.gif);
+}
+.rex-i-metainfo {
+	background-image: url(metainfo.png);
+	background-position: 0px -1px;
+}
+.rex-i-metainfo-add {
+	background-image: url(metainfo_plus.png);
+	background-position: 3px 5px;
+}
+*html .rex-i-metainfo-add {
+	background-image: url(metainfo_plus.gif);
+}
+.rex-i-module {
+	background-image: url(module.png);
+	background-position: 0px -1px;
+}
+.rex-i-module-add {
+	background-image: url(module_plus.png);
+	background-position: 3px 4px;
+}
+.rex-i-refresh {
+	background-image: url(refresh.gif);
+}
+.rex-i-refresh-ani {
+	background-image: url(refresh_ani.gif);
+}
+.rex-i-refresh-err {
+  background-image: url(refresh_err.gif);
+}
+.rex-i-slice {
+	background-image: url(slice.gif);
+}
+.rex-i-template {
+	background-image: url(template.png);
+	background-position: 0px -1px;
+}
+.rex-i-template-add {
+	background-image: url(template_plus.png);
+	background-position: 2px 4px;
+}
+.rex-i-togglesettings {
+ 	background-image: url(togglesettings.gif);
+}
+.rex-i-togglesettings-off {
+ 	background-image: url(togglesettings_off.gif);
+}
+.rex-i-toggleview {
+ 	background-image: url(toggleview.gif);
+}
+.rex-i-toggleview-off {
+ 	background-image: url(toggleview_off.gif);
+}
+.rex-i-user {
+	background-image: url(user.png);
+	background-position: 0px -1px;
+}
+.rex-i-user-add {
+	background-image: url(user_plus.png);
+	background-position: 3px 4px;
+}
+#rex-page-image-manager .rex-i-generic,
+#rex-page-image-manager .rex-i-generic-add {
+	background: none !important;
+}
+#rex-page-image-manager tbody td.rex-icon {
+	background-image: url(image.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 11px 1px !important;
+}
+#rex-page-image-manager thead tr th.rex-icon {
+	background-image: url(image_plus.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 11px 1px !important;
+}
+#rex-page-mediapool tbody td.rex-icon {
+	background-image: url(folder.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 10px 3px !important;
+}
+#rex-page-mediapool #rex-form-mediapool-media tbody td.rex-icon {
+	background-image: none !important;
+}
+th:hover .rex-i-mediapool-category-add {
+	background-image: url(folder_plus.png);
+	background-position: 2px -27px;
+}
+
+/* Hover Style */
+tr:hover .rex-i-article {
+	background-image: url(document.png);
+	background-position: 0 -31px;
+}
+th:hover .rex-i-article-add {
+	background-image: url(document_plus.png);
+	background-position: 3px -26px;
+}
+tr:hover .rex-i-article-startpage {
+	background-image: url(startpage.png);
+	background-position: 0px -31px;
+}
+tr:hover .rex-i-category {
+	background-image: url(folder.png);
+	background-position: 0 -33px;
+}
+th:hover .rex-i-category-add {
+	background-image: url(folder_plus.png);
+	background-position: 2px -27px;
+}
+tr:hover .rex-i-template {
+	background-image: url(template.png);
+	background-position: 0px -31px;
+}
+th:hover .rex-i-template-add {
+	background-image: url(template_plus.png);
+	background-position: 2px -26px;
+}
+tr:hover .rex-i-module {
+	background-image: url(module.png);
+	background-position: 0px -31px;
+}
+th:hover .rex-i-module-add {
+	background-image: url(module_plus.png);
+	background-position: 3px -26px;
+}
+tr:hover .rex-i-user {
+	background-image: url(user.png);
+	background-position: 0px -31px;
+}
+th:hover .rex-i-user-add {
+	background-image: url(user_plus.png);
+	background-position: 3px -26px;
+}
+tr:hover .rex-i-clang {
+	background-image: url(clang.png);
+	background-position: 0px -30px;
+}
+th:hover .rex-i-clang-add {
+	background-image: url(clang_plus.png);
+	background-position: 0 -26px;
+}
+tr:hover .rex-i-addon {
+	background-image: url(addon.png);
+	background-position: 0px -30px;
+}
+#rex-page-mediapool tbody tr:hover td.rex-icon {
+	background-image: url(folder.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 10px -27px !important;
+}
+#rex-page-image-manager tbody tr:hover td.rex-icon {
+	background-image: url(image.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 11px -29px !important;
+}
+#rex-page-image-manager thead tr:hover th.rex-icon {
+	background-image: url(image_plus.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 11px -29px !important;
+}
+tr:hover .rex-i-metainfo {
+	background-position: 0px -31px;
+}
+th:hover .rex-i-metainfo-add {
+	background-position: 3px 35px;
+}
+#rex-page-cronjob tbody tr:hover td.rex-icon {
+	background-image: url(cronjob.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 10px -26px !important;
+}
+#rex-page-cronjob thead tr:hover th.rex-icon {
+	background-image: url(cronjob_plus.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 10px -26px !important;
+}
+
+/* Hover end */
+.rex-i-category {
+	background-image: url(folder.png);
+	background-position: 0 -3px;
+}
+.rex-i-category-add, 
+.rex-i-mediapool-category-add {
+	background-image: url(folder_plus.png);
+	background-position: 2px 3px;
+}
+.rex-i-mediapool-category {
+	background: none;
+}
+.rex-i-clang-add,
+.rex-i-action-add,
+.rex-i-article-add,
+.rex-i-metainfo-add,
+.rex-i-module-add,
+.rex-i-template-add,
+.rex-i-user-add,
+.rex-i-category-add,
+.rex-i-cronjob-add,
+.rex-i-mediapool-category-add {
+	display:block;
+	height:26px;
+	width:26px;
+	margin-top:-7px;
+	margin-left:3px;
+	position:relative;
+	text-indent:0em;
+}
+.rex-i-mediapool-category-add .rex-i-element-text,
+.rex-i-action-add .rex-i-element-text,
+.rex-i-article-add .rex-i-element-text,
+.rex-i-clang-add .rex-i-element-text,
+.rex-i-metainfo-add .rex-i-element-text,
+.rex-i-module-add .rex-i-element-text,
+.rex-i-template-add .rex-i-element-text,
+.rex-i-user-add .rex-i-element-text,
+.rex-i-article-add .rex-i-element-text,
+.rex-i-category-add .rex-i-element-text,
+.rex-i-cronjob-add .rex-i-element-text {
+	text-align:left;
+	display:block;
+	position:absolute;
+	width:360px;
+	height:15px;
+	color:#333;
+	margin:5px 0 0 27px;
+	font-weight:normal;
+	background-color:#E9E9E9;
+	padding:5px 0 4px 10px;
+	font-size:11px;
+	font-weight: bold;
+	text-shadow: #fff 1px 1px 1px;
+	z-index: 2;
+}
+/*	Border *********************************************************************
+*******************************************************************************/
+table.rex-table tr.rex-metainfo-cat td {
+  border-color: #E9E9E9;
+}
+div.rex-content-editmode div.rex-form.rex-form-content-editmode-add-slice div.rex-content-editmode-module-name, 
+div.rex-content-editmode div.rex-content-editmode-module-name.rex-form-content-editmode-edit-slice, 
+table.rex-table tr.rex-metainfo-cat-b td {
+  border-bottom: 1px solid #CBCBCB;
+}
+/*	Allgemeines ****************************************************************
+*******************************************************************************/
+.rex-hl2 {
+	border-bottom: 1px solid #CBCBCB;
+	padding-left:12px;
+}
+div.rex-area-content {
+	padding-left:12px;
+}
+div.rex-area-footer {
+	padding-left:12px;
+}
+div#rex-website {
+	background-color: transparent;
+	width:100%;
+}
+div#rex-navi-logout {
+	position: static;
+	float: left;
+	width: 100%;
+	height: 75px;
+}
+div#rex-navi-logout p, 
+div#rex-navi-logout ul {
+	padding: 40px 0 0 0;
+	text-align: right;
+}
+div#rex-navi-main {
+	padding: 0;
+	background: none;
+	margin-bottom:14px;
+}
+.rex-popup div#rex-navi-main {
+	margin-bottom:0px;
+}
+div#rex-wrapper {
+	clear: none;
+	padding-bottom: 16px;
+}
+#rex-page-login div#rex-wrapper {
+	padding-bottom: 72px;
+}
+body#rex-page-login div#rex-wrapper, 
+body#rex-page-linkmap div#rex-wrapper, 
+body#rex-page-mediapool div#rex-wrapper, 
+body#rex-page-setup div#rex-wrapper {
+	width: 100%;
+	margin-right: 0px;
+}
+body#rex-page-login div#rex-wrapper2, 
+body#rex-page-linkmap div#rex-wrapper2, 
+body#rex-page-mediapool div#rex-wrapper2, 
+body#rex-page-setup div#rex-wrapper2 {
+	padding: 0 16px;
+}
+div#rex-footer {
+  clear: both;
+	border-top-color: #fff;
+	border-top-width: 0;
+	margin: 0;
+	padding: 11px 0 9px 0;
+}
+div#rex-navi-footer ul {
+    margin-left: 15px;
+}
+div#rex-navi-footer p#rex-scripttime {
+    margin-right: 15px;
+}
+div#rex-title {
+	margin-top: 0px;
+	background: none;
+}
+html>body div#rex-title {
+	min-height: 0;
+}
+div#rex-title h1 {
+	padding-top: 16px;
+	padding-bottom: 18px;
+	padding-left: 12px;
+}
+div#rex-output {
+	margin-top: 10px;
+}
+#rex-page-login div#rex-title, 
+#rex-page-setup div#rex-title, 
+#rex-page-login div#rex-output, 
+#rex-page-setup div#rex-output {
+	float: none;
+/*	width: 650px;*/
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*	Navigationen ***************************************************************
+*******************************************************************************/
+
+div#rex-navi-main dl {
+	width: 100%;
+}
+div#rex-navi-main dt {
+	clear: both;
+	display: none;
+	border-bottom: 1px solid #FFF;
+	padding: 12px 10px 6px 10px !important;
+}
+* html div#rex-navi-main dd {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+* html div#rex-navi-main dd ul {
+	margin: 10px 5px;
+}
+* + div#rex-navi-main dl {
+	padding-left:5px;
+}
+* + html div#rex-navi-main dd {
+	float: left;
+	margin:0;
+	padding:0;
+}
+div#rex-navi-main dd {
+	clear: inherit;
+	clear: none;
+	margin: 0 0 16px 0;
+}
+* html div#rex-navi-main,
+* + html div#rex-navi-main {
+	padding-top: 10px;
+}
+
+/*div#rex-navi-main ul {clear:both;}*/
+
+div#rex-navi-main ul li  {
+	float: left;
+	display: block;
+	padding: 0;
+	background: none;
+	border-bottom: 1px solid #FFF;
+}
+div#rex-navi-main ul li a {
+	font-weight:normal;
+	display: block;
+	padding: 5px 10px;
+	color:#818181;
+	border-bottom:3px solid #ededed
+}
+div#rex-navi-main ul li a:hover {
+	text-decoration: none;
+	color:#000;
+}
+div#rex-navi-main li a:hover {
+	border-bottom:3px solid #C1C1C1;
+	color:#656565;
+}
+div#rex-navi-main li a.rex-active {
+	border-bottom:3px solid #badd19;
+	color:#000;
+}
+div#rex-navi-main li a.rex-active:hover{
+	border-bottom:3px solid #badd19;
+}
+div#rex-navi-main ul#rex-navi-addons li a.rex-active {
+	border-bottom:3px solid #999;
+	color:#000;
+}
+div#rex-navi-main ul#rex-navi-addons li a.rex-active:hover {
+	border-bottom:3px solid #999;
+}
+div#rex-navi-main ul li.rex-active ul {
+/*  position:absolute;display:block;z-index:2;*/
+}
+div#rex-navi-main ul li:hover ul {
+	-o-box-shadow: 0px 3px 5px #888;
+	-icab-box-shadow: 0px 3px 5px #888;
+	-khtml-box-shadow: 0px 3px 5px #888;
+	-moz-box-shadow: 0px 3px 5px #888;
+	-webkit-box-shadow: 0px 3px 5px #888;
+	box-shadow: 0px 3px 5px #888;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	border: none;
+	width: 190px;
+	background: #e0e0e0 url(bg_mainsubn.jpg) repeat-x top;
+}
+* html div#rex-navi-main ul li:hover ul,
+* + html div#rex-navi-main ul li:hover ul {
+	border: 1px solid #C4C4C4;
+	border-width: 0 1px 1px 1px;
+}
+div#rex-navi-main ul li ul li {
+	border-bottom: 0;
+	font-size:0.98em;
+	display: block;
+	width: 190px;
+}
+div#rex-navi-main ul li ul li a {
+	padding: 6px 9px 6px 9px;
+	display: block;
+	font-weight: normal;
+	color: #888;
+	border-bottom: 1px solid #e0e0e0;
+	border-left: 2px solid #eaeaea;
+
+}
+div#rex-navi-main ul li ul li a.rex-active:hover,
+div#rex-navi-main li ul li a:hover,
+div#rex-navi-main li ul li a.rex-active,
+div#rex-navi-main ul#rex-navi-addons li ul li a.rex-active {
+	border-bottom: 1px solid #eaeaea;
+	border-left: 2px solid #fff;
+	color:#000;
+	background-color: #EBF4CB;
+}
+div#rex-navi-main ul#rex-navi-addons li ul li a.rex-active:hover {
+	border-bottom: 1px solid #eaeaea;
+	border-left: 2px solid #fff;
+}
+div#rex-title div.rex-title-row,
+div#rex-website div#rex-title div.rex-title-row {
+	background-color:#F0F0F0;
+	width: 100%;
+}
+div#rex-title div.rex-title-row-sub {
+	background-color:#F0F0F0;
+	font-size:0.94em;
+}
+div#rex-title div.rex-title-row-empty {
+	border-bottom: 0;
+}
+div#rex-title div.rex-title-row-empty p {
+	display: none;
+}
+div#rex-title ul#rex-navi-path {
+	border: 0;
+}
+/*	Toolbar ********************************************************************
+*******************************************************************************/
+div.rex-toolbar-content {
+	border: 0;
+	margin-left: 0;
+}
+/*	Sprachen, Content (Editiermodus, Metadaten, Anzeigen) **********************
+*******************************************************************************/
+div.rex-content-header-2 {
+}
+div.rex-content-header-2 {
+	margin-left: 0;
+	border-left: 0;
+}
+div.rex-content-header ul {
+	margin-right: 0;
+}
+div.rex-content-header ul.rex-navi-content {
+	margin-right: 0;
+	padding-right: 7px;
+	border: 0;
+}
+div.rex-form-content-editmode fieldset.rex-form-col-1 div.rex-form-row p.rex-form-select {
+	padding: 5px 12px;
+}
+/*	Paginate *******************************************************************
+*******************************************************************************/
+div.rex-navi-paginate ul li {
+	margin-right: 10px;
+}
+div.rex-navi-paginate ul li.rex-navi-paginate-page {
+	margin-right: 0;
+}
+div.rex-navi-paginate ul li.rex-navi-paginate-next {
+	padding-left: 10px;
+}
+div.rex-navi-paginate ul li.rex-navi-paginate-message {
+	padding-top: 3px;
+}
+div.rex-navi-paginate ul li.rex-navi-paginate-prev a, 
+div.rex-navi-paginate ul li.rex-navi-paginate-next a {
+	width: 18px;
+	height: 18px;
+}
+div.rex-navi-paginate ul li.rex-navi-paginate-prev a span, 
+div.rex-navi-paginate ul li.rex-navi-paginate-next a span {
+	display: none;
+}
+div.rex-navi-paginate ul li.rex-navi-paginate-page a span {
+	padding: 3px 10px 2px 10px;
+	font-weight: bold;
+}
+/*	Slice **********************************************************************
+*******************************************************************************/
+div.rex-navi-slice ul li a {
+	display: block;
+	margin-right: 0px;
+	padding-top: 2px;
+	padding-right: 5px;
+	font-size:13px;
+}
+div.rex-content-editmode-module-name h3.rex-hl4 {
+	padding-top: 10px;
+	padding-left: 12px;
+	font-size:13px;
+}
+div.rex-content-editmode-module-name div.rex-navi-slice {
+	padding-right: 7px;
+	padding-left: 2px;
+}
+div.rex-area-content,
+div.rex-addon-content,
+div.rex-content-editmode-slice-input, 
+div.rex-content-editmode-slice-output {
+	padding: 12px;
+} 
+
+div.rex-navi-slice ul li a.rex-slice-move-up, 
+div.rex-navi-slice ul li a.rex-slice-move-down {
+	padding-top: 0px;
+	width: 18px;
+	height: 18px;
+}
+div.rex-navi-slice ul li a.rex-slice-move-up {
+	padding-right: 0px;
+}
+/*	Content ********************************************************************
+*******************************************************************************/
+div.rex-content-body-2 {
+	padding: 0;
+}
+body#rex-page-import-export div.rex-area-col-a, 
+body#rex-page-import-export div.rex-area-col-b, 
+div.rex-addon-col-a, 
+div.rex-addon-col-b {
+	float: none;
+	width: 100%;
+}
+
+/*	Icons **********************************************************************
+*******************************************************************************/
+.rex-i-element-text {
+/*	display: inline !important;
+	position: absolute !important;
+	left: -1000px !important;
+	top: -1000px !important;
+	width: 0px !important;
+	height: 0px !important;
+	overflow: hidden !important;
+	background-color: #FFF !important;
+*/}
+.rex-i-clang, 
+.rex-i-clang-add {
+/*	width: 21px;
+*/}
+
+/*	Formulare ******************************************************************
+*******************************************************************************/
+/*	Struktur : Metainfo 
+*******************************************************************************/
+div#rex-form-structure-category tr.rex-metainfo-cat div.rex-form-checkboxes-wrapper p.rex-form-label-right label, 
+div#rex-form-structure-category tr.rex-metainfo-cat div.rex-form-radios-wrapper p.rex-form-label-right label {
+	width: 282px;
+}
+div#rex-form-structure-category tr.rex-metainfo-cat div.rex-form-checkboxes-wrapper, 
+div#rex-form-structure-category tr.rex-metainfo-cat div.rex-form-radios-wrapper, 
+div#rex-form-structure-category tr.rex-metainfo-cat p.rex-form-label-right label, 
+div#rex-form-structure-category tr.rex-metainfo-cat p.rex-form-read span,
+div#rex-form-structure-category tr.rex-metainfo-cat p.rex-form-text input,
+div#rex-form-structure-category tr.rex-metainfo-cat p textarea {
+	width: 312px;
+}
+div#rex-form-structure-category tr.rex-metainfo-cat p.rex-form-select select {
+	width: 318px;
+}
+
+div.rex-form-setup-step-database div.rex-form-row p.rex-form-label-right label {
+	width: 590px;
+}
+
+div#rex-form-mediapool-detail div.rex-form-row p select.rex-form-select-date {
+	width: 45px;
+}
+div#rex-form-mediapool-detail div.rex-form-row p select.rex-form-select-year {
+	width: 65px;
+}
+
+div#rex-form-system-setup div.rex-widget input {
+	width: 90px;
+}
+
+
+
+.rex-form-col-a.rex-form-select label {
+	display: block;
+	width: 100%;
+}
+input {
+	padding: 1px 2px;
+	border: 1px solid #999
+}
+textarea {
+	padding: 2px;
+	border: 1px solid #999
+}
+
+div.rex-form div.rex-form-row label, 
+div.rex-form div.rex-form-row p.rex-form-label {
+	padding: 5px 12px;
+	width: 131px;
+}
+div.rex-form legend {
+	padding: 7px 12px;
+}
+
+/*	Widget *********************************************************************
+*******************************************************************************/
+div.rex-widget p.rex-widget-icons {
+	padding-top: 0;
+}
+div.rex-widget p.rex-widget-icons a {
+	width: 18px;
+	height: 18px;
+}
+
+
+/*	Extras *********************************************************************
+*******************************************************************************/
+div#rex-redaxo-link {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	width: 200px;
+}
+div#rex-redaxo-link a {
+	display: block;
+	width: 200px;
+	height: 75px;
+	text-indent: -1000em;
+}
+
+/*	Rundungen ******************************************************************
+*******************************************************************************/
+input.rex-form-text {
+	padding: 1px 2px;
+	border: 1px solid #999;
+}
+
+body#rex-page-addon table.rex-table, 
+body#rex-page-linkmap div#rex-linkmap, 
+body#rex-page-login div.rex-form, 
+body#rex-page-mediapool div.rex-form, 
+body#rex-page-mediapool div#rex-mediapool-detail-wrapper, 
+body#rex-page-mediapool table.rex-table, 
+body#rex-page-module div.rex-form, 
+body#rex-page-module table.rex-table, 
+body#rex-page-profile div.rex-form, 
+body#rex-page-specials div.rex-form, 
+body#rex-page-structure div.rex-form, 
+body#rex-page-structure table.rex-table, 
+body#rex-page-template div.rex-form, 
+body#rex-page-template table.rex-table,
+body#rex-page-user div.rex-form, 
+body#rex-page-user table.rex-table, 
+body#rex-page-import-export div.rex-area-col-a, 
+body#rex-page-import-export div.rex-area-col-b, 
+div.rex-area, 
+div.rex-addon-output, 
+div.rex-addon-output-v2 div.rex-form, 
+div.rex-addon-output-v2 table.rex-table, 
+div.rex-content-header, 
+div.rex-content-body,
+div.rex-info-block, 
+div.rex-message, 
+div.rex-message-block, 
+div.rex-toolbar {
+	border: 0;
+	outline: none;
+}
+ p.rex-button a {
+	outline: none;
+}
+#rex-website p.rex-button a:hover {
+	text-decoration:none;
+ }
+body#rex-page-import-export div.rex-area, 
+body#rex-page-mediapool div#rex-mediapool-detail-wrapper div.rex-form, 
+body#rex-page-mediapool div.rex-form table.rex-table, 
+body#rex-page-module div.rex-form table.rex-table, 
+body#rex-page-structure div.rex-form table.rex-table, 
+div.rex-addon-output div.rex-area, 
+div.rex-content-editmode div.rex-message, 
+div#rex-output div.rex-toolbar div.rex-form {
+	border: 0;
+	-moz-outline-radius-bottomleft: 0;
+	-moz-outline-radius-bottomright: 0;
+	-moz-outline-radius-topleft: 0;
+	-moz-outline-radius-topright: 0;
+	outline: 0;
+}
+div.rex-content-body {
+	-moz-outline-radius-topleft: 0;
+	-moz-outline-radius-topright: 0;
+}
+div.rex-content-header, 
+div.rex-content-body {
+	-moz-outline-radius-bottomleft: 0;
+	-moz-outline-radius-bottomright: 0;
+}
+p.rex-button a, 
+div.rex-form input.rex-form-submit {
+	padding: 2px 6px;
+}
+
+div.rex-area-col-2, 
+div.rex-addon-col-2 {
+	position: static;
+}
+body#rex-page-import-export div.rex-area-col-a, 
+div.rex-addon-output, 
+div#rex-form-mediapool-selectcategory {
+	margin-bottom: 10px;
+}
+
+
+/*	Popup Spezial **************************************************************
+*******************************************************************************/
+body.rex-popup div#rex-navi-logout {
+	margin-bottom: 2px;
+}
+body.rex-popup div#rex-title h1 {
+	padding-bottom: 15px;
+	text-align: right;
+	padding-right:15px;
+}
+body.rex-popup div#rex-output {
+	margin-top: 12px;
+}
+
+/*	Elemente wieder anzeigen ***************************************************
+*******************************************************************************
+div#rex-navi-main dl dt {
+	display: block !important;
+	position: static !important;
+	width: auto !important;
+	height: auto !important;
+	background-color: transparent !important;
+}
+
+/*	Elemente verstecken ********************************************************
+		Hinweis: 
+			den Elementen nicht die Klasse "rex-hidden" einzeln zuweisen, 
+			da diese von anderen Layouts eventuell dargestellt werden sollen
+*******************************************************************************/
+div#rex-header {
+	display: inline !important;
+	position: absolute !important;
+	left: -1000px !important;
+	top: -1000px !important;
+	width: 0px !important;
+	height: 0px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-color: #FFF !important;
+	overflow: hidden !important;
+}
+
+body.rex-layout-liquid div#rex-website {	
+	width: 100%;
+}
+body.rex-layout-liquid div#rex-navi-main {
+	width: 15%;
+	margin-left: 2%;
+}
+body.rex-layout-liquid div#rex-wrapper {
+
+}
+tr.rex-metainfo-cat {
+	display: none;
+}
+
+/* Table Hover */
+table.rex-table tr:hover td {
+	background-color:#EBF4CB;
+}
+
+table.rex-table tr:hover {
+	background: #e4e4e4;
+}
+table.rex-module tr:hover {
+	background: #e7e7e7;
+}
+table.rex-table tr:hover a,
+table.rex-module tr:hover a {
+	color: #343434;
+}
+table.rex-table tr:hover a.rex-online {
+	color: #3EC94A;
+}
+table.rex-table tr:hover a.rex-offline {
+	color: #AA0000;
+}
+table.rex-table tr:hover a.rex-offline:hover,
+table.rex-table tr:hover a.rex-online:hover {
+	color: #343434;
+}
+/* Table a display:block */
+table.rex-table tr a {
+	display: block;
+}
+
+/* Ausnahmen: */
+#rex-page-xoutputfilter table.rex-table tr a,
+#rex-page-addon table.rex-table tr a,
+#rex-page-credits table.rex-table tr a,
+#rex-page-medienpool table.rex-table tr a{
+	display: inline;
+}
+
+table.rex-table a.rex-button-add {display: inline;}
+/*div.rex-widget p.rex-widget-icons a { display: inline; } */
+body img { max-width: none; } 
+
+#rex-website table.rex-table caption,
+#rex-website table.rex-table th,
+#rex-website table.rex-table tr,
+#rex-website table.rex-table tr td,
+#rex-website table.rex-table td {
+	border-color:#d3d3d3;
+	border-top: 1px solid #d3d3d3;
+	border-right: none;
+	border-left: none ;
+	background-image: url(w_point.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	position: relative;
+}
+* html #rex-website table.rex-table td {
+	border-width: 1px 0 0 0;
+}
+
+* + html #rex-website table.rex-table td {
+	border-width: 1px 0 0 0;
+}
+div#rex-title div.rex-title-row p,
+div#rex-title div.rex-title-row ul#rex-navi-path,
+#rex-title div.rex-title-row.rex-title-row-sub ul {
+	font-weight: noraml;
+	padding-left:13px;
+}
+div#rex-title div.rex-title-row ul#rex-navi-path li {
+	font-weight: normal;
+}
+#rex-website table.rex-table tr.rex-plugin{
+	border-top: 0;
+	border-width: 0px 0px;
+}
+#rex-website table.rex-table tr.rex-plugin td,
+body#rex-page-addon #rex-website table.rex-table tr.rex-plugin td {
+	border-top-color:#FAF9F5;
+	background-repeat:no-repeat;
+	border-top: 0;
+	border-width: 0px 0px;
+}
+body#rex-page-addon table.rex-table tr.rex-plugin td.rex-col-b, 
+body#rex-page-credits table.rex-table tr.rex-plugin td.rex-col-a {
+	background-image: url(../../../../../redaxo/media/corner.gif);
+}
+
+body.rex-popup div#rex-website div#rex-navi-page {
+	padding-left:2px;
+}
+div#rex-navi-page ul li a {
+	background-image: url(../../../../../redaxo/media/pipe_c2.gif);
+	background-position: 0px 2px;
+	font-weight: normal;
+	font-size: 1.1em;
+}
+#rex-page-mediapool .rex-title-row.rex-title-row-sub {
+	/*font-size: 1.0em;*/
+}
+div#rex-navi-footer ul li {
+	background-image: none;
+	margin-right: 2px;
+	padding-left: 3px;
+	border-left: 1px solid #c6c6c7;
+}
+div#rex-navi-footer ul li.rex-navi-first {
+	border-left: none;
+}
+
+div#rex-navi-page ul li.rex-navi-first a,
+div#rex-navi-page ul li a {
+	padding: 0px 11px 0 7px;
+	background-image: url(next.gif);
+	background-position: 0% 50%;
+	background-repeat: no-repeat;
+}
+.rex-logout .rex-navi-first span {
+	font-weight: normal;
+	color: #a0a0a3 !important;
+}
+.rex-logout .rex-navi-first {
+	border-left: none;
+}
+.rex-logout {
+}
+.rex-logout a {
+	border-left: 1px solid #c6c6c7;
+}
+
+/*	Sprachen, Content (Editiermodus, Metadaten, Anzeigen) **********************
+*******************************************************************************/
+div#rex-clang {
+	position:absolute;
+	margin-top:-43px;
+	right:0;
+	background-color:transparent;
+	font-size:0.94em;
+}
+div.rex-content-header ul {
+	padding-left: 5px;
+}
+div#rex-clang ul {
+}
+div.rex-content-header ul {
+	float: left;
+	margin-right: 50px;
+}
+div#rex-clang ul li {
+	display: inline;
+}
+div#rex-clang ul li a {
+	padding: 0 5px;
+	font-weight: normal;
+}
+div#rex-clang ul li.rex-navi-first a {
+	padding-left: 0;
+	background: none;
+}
+div#rex-clang ul li a {
+	background-image: url(../../../../../redaxo/media/pipe_c2.gif);
+	background-position: 0px 2px;
+	font-size: 1.1em;
+}
+
+.rex-dashboard-section.rex-dashboard-2col.rex-dashboard-components {
+	width: 100%;
+}
+.rex-dashboard-section.rex-dashboard-2col.rex-dashboard-components .rex-dashboard-column {
+	width: 49%;
+}
+.rex-dashboard-section.rex-dashboard-2col.rex-dashboard-components .rex-table,
+.rex-dashboard-section.rex-dashboard-1col.rex-dashboard-components .rex-table {
+	width: 100%;
+}
+
+
+#rex-output .rex-dashboard-hl1 {
+	font-size: 1.23em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+	font-weight: 100;
+	padding: 10px 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.rex-form.rex-dashboard-component-config {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+}
+.rex-form.rex-dashboard-component-config form {
+	margin: 20px 10px;
+}
+
+.rex-rss-feed h3 {
+	
+}
+.rex-rss-feed ul {
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.rex-rss-feed ul li {
+	list-style: none;
+	margin-bottom: 7px;
+	border-bottom: 1px solid #ddd;
+	padding: 5px 20px;
+}
+.rex-rss-feed ul li a {
+	display: block;
+	padding: 1px 0;
+}
+
+/*	Template / Module : Action *************************************************
+*******************************************************************************/
+div.rex-form-action-editmode div.rex-form-row p.rex-form-col-b input.rex-form-submit, 
+div.rex-form-module-editmode div.rex-form-row p.rex-form-col-b input.rex-form-submit, 
+div.rex-form-template-editmode div.rex-form-row p.rex-form-col-b input.rex-form-submit {
+	margin-left: 0px;
+}
+div.rex-form-action-editmode div.rex-form-row p.rex-form-textarea textarea, 
+div.rex-form-module-editmode div.rex-form-row p.rex-form-textarea textarea {
+	height: 370px;
+	width: 770px;
+}
+div.rex-form-template-editmode div.rex-form-row p.rex-form-textarea textarea {
+	height: 670px;
+	width: 770px;
+}
+
+div.rex-form-template-editmode div#rex-form-template-ctype p.rex-form-checkbox {
+	padding-top: 5px;
+}
+div.rex-form-template-editmode div#rex-form-template-ctype p.rex-form-select select {
+	margin-top: 5px;
+}
+
+#rex-output .rex-form.rex-action-editmode .rex-form-col-1 .rex-form-wrapper .rex-form-col-a.rex-form-textarea textarea {
+	width: 770px;
+	height: 270px;
+}
+
+
+.rex-navi-level-2 {
+	z-index: 100 !important;
+}
+
+
+/*
+div.rex-message .rex-info, 
+div.rex-message .rex-warning {
+	padding: 8px 12px;
+	background-position: 7px 50%;
+}
+*/
+
+div.rex-form div.rex-form-row p span.rex-form-notice {
+	margin-left: 200px !important;
+}
+body#rex-page-addon #rex-website table.rex-table tr.active td {
+	background: #c9ecd2;
+}
+
+div.rex_markitup.textile {
+	width: 600px;
+}
+
+/* Anpassung für SEO-AddOn */
+form#seo-form div.rex-form-row p span#before-title-preview {
+	margin-left: 155px !important;	
+}
+div.rex-form form#seo-form div.rex-form-row span.rex-form-notice {
+	margin-left: 155px !important;
+}
+
+/* Anpassung für Xform-AddOn */
+body#rex-page-community table.rex-table tr a {
+	display: inline;
+}
