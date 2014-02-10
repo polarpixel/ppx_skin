@@ -8,7 +8,7 @@
 
 $mypage = 'ppx_skin';
 
-$REX['ADDON']['version'][$mypage] = '1.0';
+$REX['ADDON']['version'][$mypage] = '1.1';
 $REX['ADDON']['author'][$mypage] = 'Peter Bickel';
 $REX['ADDON']['supportpage'][$mypage] = 'forum.redaxo.de';
 
