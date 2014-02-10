@@ -202,8 +202,8 @@ div#rex-footer {
 	background-repeat: repeat-x;
 }
 div#rex-navi-logout {
-	background-image: url(logo.gif);
-    background-position: 8px 18px;
+	background-image: url(logo.png);
+    background-position: 0px 5px;
     background-color: transparent;
     background-repeat: no-repeat;
 }
@@ -214,7 +214,7 @@ div#rex-navi-logout {
 	background-position: 0px 0px;
 }
 *+html div#rex-navi-logout .rex-logout {
-	background-image: url(logo.gif);
+	background-image: url(logo.png);
     background-position: 0;
     background-repeat: no-repeat;
 }
