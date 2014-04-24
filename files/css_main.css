@@ -4,11 +4,13 @@
  */
 
 body {
-	background-image: url(bg_body.gif);
 	background-repeat: repeat-x;
 	background-color: #fff;
 }
-
+#rex-navi-logout {
+	border-bottom: 3px solid #EDEDED;
+	border-bottom-width: 3px !important;
+}
 html {
 	margin:0;
 	padding:0 10px;
@@ -714,6 +716,8 @@ div#rex-output {
 
 div#rex-navi-main dl {
 	width: 100%;
+	position: relative;
+	left: -10px;
 }
 div#rex-navi-main dt {
 	clear: both;
@@ -756,6 +760,11 @@ div#rex-navi-main ul li  {
 	background: none;
 	border-bottom: 1px solid #FFF;
 }
+div#rex-navi-main ul li#rex-navu-page-install { /* separate system from additional addons */
+	padding-right: 15px;
+	margin-right: 15px;
+}
+
 div#rex-navi-main ul li a {
 	font-weight:normal;
 	display: block;
@@ -1460,7 +1469,7 @@ div.rex_markitup.textile {
 	width: 600px;
 }
 
-/* Anpassung für SEO-AddOn */
+/* SEO-AddOn */
 form#seo-form div.rex-form-row p span#before-title-preview {
 	margin-left: 155px !important;	
 }
@@ -1468,7 +1477,24 @@ div.rex-form form#seo-form div.rex-form-row span.rex-form-notice {
 	margin-left: 155px !important;
 }
 
-/* Anpassung für Xform-AddOn */
+/* Xform-AddOn */
 body#rex-page-community table.rex-table tr a {
 	display: inline;
+}
+
+/* Customizer-Plugin*/
+h1.be-style-customizer-title {
+	top: 35px !important;
+	left: auto !important;
+	right: 0;
+}
+body.rex-layout-liquid {
+	max-width: 98%;
+}
+body.rex-layout-liquid div#rex-navi-main {
+	width: 100%;
+	margin-left: 0;
+}
+div.rex-form-row p.explain {
+	padding: 5px 12px;
 }

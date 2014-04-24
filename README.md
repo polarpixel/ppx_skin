@@ -1,6 +1,8 @@
 ppx_skin
 ========
 
-Backend-Skin for Redaxo 4.4 und 4.5
+Backend-Skin für Redaxo 4.4, 4.5, 4.6
 
-To use an own client's lgo, just place logo.png with a height of 65px in the files directory of the plugin.
+* Umgebaut vom be_style-Plugin zu AddOn, um Updatefähigkeit für Installer-AddOn zu ermöglichen.
+* Settings-Seite eingeführt, um eigenes Logo hochzuladen und vertikale Position des Logos anzupassen
+* Skin angepasst für Customizer-Plugin (liquid layout, farbiger Balken, Frontend-Link)
